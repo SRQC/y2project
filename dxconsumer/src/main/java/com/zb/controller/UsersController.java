@@ -18,5 +18,8 @@ public class UsersController {
     public String hello(){
         return "backstagepages/index";
     }
-
+    @RequestMapping("word")
+    public String word(){
+        return "index";
+    }
 }
